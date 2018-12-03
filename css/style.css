@@ -117,7 +117,9 @@ body {
       margin-right:50px;
       float:right;
   }
-
+  .notifyDiv {
+    margin: 25px auto;
+  }
   .newsletterInputcontrol input.newsletterInput {
     border:0px;
     box-shadow: none;
