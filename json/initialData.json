@@ -2,23 +2,19 @@
     "INITIAL_LOAD": [
         {
             "MOB_NAME": "IPhone 6S",
-            "IMG": "./img/mobile2.png",
-            "OUT_OF_STOCK": false
+            "IMG": "./img/mobile2.png"
         },
         {
             "MOB_NAME": "Moto G",
-            "IMG": "./img/mobile2.png",
-            "OUT_OF_STOCK": false
+            "IMG": "./img/mobile2.png"
         },
         {
             "MOB_NAME": "Moto G h2",
-            "IMG": "./img/mobile2.png",
-            "OUT_OF_STOCK": false
+            "IMG": "./img/mobile2.png"
         },
         {
             "MOB_NAME": "Moto G",
-            "IMG": "./img/mobile2.png",
-            "OUT_OF_STOCK": true
+            "IMG": "./img/mobile2.png"
         }
     ]
 }
