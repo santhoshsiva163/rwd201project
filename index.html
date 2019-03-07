@@ -4,15 +4,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Mobile shop page with mobile details">
+    <meta name="keywords" content="RWD201, Responsive Web Design 2O1, Mobile 2O1 Page">
+    <meta name="author" content="RWD 2O1">
     <title>RWD 201 Project</title>
     <!-- Bootstrap core CSS -->
-    <link href="./css/bootstrap.css" rel="stylesheet">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome Icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- Custom styles for this template -->
-    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/style.min.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -24,17 +25,17 @@
                     <ul class="headerListItems float-right">
                         <li>
                             <a href="javascript:void(0)">
-                                <i class="fa fa-search"></i>
+                                <em class="fa fa-search"></em>
                             </a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">
-                                <i class="fa fa-user-circle-o"></i>
+                                <em class="fa fa-user-circle-o"></em>
                             </a>
                         </li>
                         <li>
                             <a href="javascript:void(0)">
-                                <i class="fa fa-cart-plus"></i>
+                                <em class="fa fa-cart-plus"></em>
                             </a>
                         </li>
                     </ul>
@@ -43,12 +44,26 @@
         </div>
     </div>
     <!-- Navigation -->
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-white">
+    <nav role="primary navigaton" aria-label="primary navigation" class="navbar fixed-top navbar-expand-lg navbar-dark bg-white">
         <div class="container">
             <a class="navbar-brand" href="javascript:void(0)"><img src="./img/logo.png" alt="Mobile Site Logo" /></a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+            <ul class="headerListItems float-right">
+                <li>
+                    <a href="javascript:void(0)">
+                        <em class="fa fa-search"></em>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <em class="fa fa-user-circle-o"></em>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0)">
+                        <em class="fa fa-cart-plus"></em>
+                    </a>
+                </li>
+            </ul>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
@@ -77,10 +92,10 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner" aria-label="selectbox" role="listbox">
                 <div class="carousel-item active" style="background-image: url('./img/carosuel.png')">
                     <div class="carousel-caption carouselOption d-none d-md-block">
-                        <h3>Moto G</h3>
+                        <h3 role="heading" aria-level="1">Moto G</h3>
                         <h4>Next Gen Mobile</h4>
                         <p>The latest Moto X series phone, the Moto X4, has been launched exclusively.</p>
                         <button class="primaryButton">Order Now</button>
@@ -88,14 +103,14 @@
                 </div>
                 <div class="carousel-item" style="background-image: url('./img/carosuel.png')">
                     <div class="carousel-caption carouselOption d-none d-md-block">
-                        <h3>Second Slide</h3>
+                        <h3 role="heading" aria-level="2">Second Slide</h3>
                         <p>This is a description for the second slide.</p>
                         <button class="primaryButton">Order Now</button>
                     </div>
                 </div>
                 <div class="carousel-item" style="background-image: url('./img/carosuel.png')">
                     <div class="carousel-caption carouselOption d-none d-md-block">
-                        <h3>Third Slide</h3>
+                        <h3 role="heading" aria-level="3">Third Slide</h3>
                         <p>This is a description for the third slide.</p>
                         <button class="primaryButton">Order Now</button>
                     </div>
@@ -114,7 +129,7 @@
     <!-- Mobile 201 Template Page Content -->
     <div class="container">
         <!-- New Arrivals Section -->
-        <div class="row userReviewsHeaderContent">
+        <section class="row userReviewsHeaderContent" aria-label="New Arrivals Section">
             <div class="col-12 text-center">
                 <span class="text-white userReviewHdrTxt">NEW
                     </span>
@@ -123,10 +138,10 @@
             <div class="col-12 text-center">
                 <h2 class="text-white userReviewDfltTxt"> Mobiles phones from the top brands are available at the most competitive prices</h2>
             </div>
-        </div>
-        <div class="row newArrivalsCntr" id="newArrivalsCntr">
-            
-        </div>
+        </section>
+        <section class="row newArrivalsCntr" aria-label="New Mobiles Container" id="newArrivalsCntr">
+            <p class="loadingData">Loading Data..</p>
+        </section>
         <div class="loadAllNewArrivals text-center">
             <h3>Load All</h3>
         </div>
@@ -151,11 +166,11 @@
                             <div class="col-lg-9 bestSalestxt">
                                 <h3>IPhone 6S</h3>
                                 <div class="ratingIcons">
-                                    <i class="fa fa-star active"></i>
-                                    <i class="fa fa-star active"></i>
-                                    <i class="fa fa-star active"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
+                                    <em class="fa fa-star active"></em>
+                                    <em class="fa fa-star active"></em>
+                                    <em class="fa fa-star active"></em>
+                                    <em class="fa fa-star"></em>
+                                    <em class="fa fa-star"></em>
                                 </div>
                                 <div class="text-right">
                                     <a href="javascript:void(0)" class="addtoCart">
@@ -179,11 +194,11 @@
                             <div class="col-lg-9 bestSalestxt">
                                 <h3>Nokia</h3>
                                 <div class="ratingIcons">
-                                    <i class="fa fa-star active"></i>
-                                    <i class="fa fa-star active"></i>
-                                    <i class="fa fa-star active"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
+                                    <em class="fa fa-star active"></em>
+                                    <em class="fa fa-star active"></em>
+                                    <em class="fa fa-star active"></em>
+                                    <em class="fa fa-star"></em>
+                                    <em class="fa fa-star"></em>
                                 </div>
                                 <div class="text-right">
                                     <a href="javascript:void(0)" class="addtoCart">Add to cart</a>
@@ -205,11 +220,11 @@
                             <div class="col-lg-9 bestSalestxt">
                                 <h3>Nokia</h3>
                                 <div class="ratingIcons">
-                                    <i class="fa fa-star active"></i>
-                                    <i class="fa fa-star active"></i>
-                                    <i class="fa fa-star active"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
+                                    <em class="fa fa-star active"></em>
+                                    <em class="fa fa-star active"></em>
+                                    <em class="fa fa-star active"></em>
+                                    <em class="fa fa-star"></em>
+                                    <em class="fa fa-star"></em>
                                 </div>
                                 <div class="text-right">
                                     <a href="javascript:void(0)" class="addtoCart">Add to cart</a>
@@ -292,7 +307,7 @@
                 <div class="newsletterInputcontrol float-right">
                     <input type="text" name="Email-to-Subscribe" class="newsletterInput" aria-label="type your email here" placeholder="type your email here" />
                 </div>
-                <a class="btn float-right btn-secondary btn-lg" href="#">Subscribe</a>
+                <a class="btn float-right btn-secondary btn-lg" aria-label='Subscribe' href="#">Subscribe</a>
             </div>
         </div>
     </div>
@@ -327,7 +342,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-3 ml-auto text-right">
+                <div class="col-lg-3 ml-auto text-right mob-footer-payment">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item">
                             <a href="javascript:void(0)"><img src="./img/paymenticons.png" alt="payment options" /></a>
@@ -338,15 +353,34 @@
         </div>
         <!-- /.container -->
     </footer>
+    
+    <ul class="navbar-nav nav-bottom ml-auto" role="secondary navigation" aria-label='bottom navigation'>
+        <li class="nav-item active">
+            <a class="nav-link h1" href="javascript:void(0)">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link h1" href="javascript:void(0)">Mobiles</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link h1" href="javascript:void(0)">Hot Deals</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link h1" href="javascript:void(0)">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link h1" href="javascript:void(0)">Contacts</a>
+        </li>
+    </ul>
+    
+    </nav>
     <!-- Bootstrap core JavaScript -->
     <script src="./js/jquery.min.js"></script>
+    <script src="./js/modernizr.min.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./js/script.min.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
-
             mobileTemplateObj.onload();
-
         });
     </script>
 </body>

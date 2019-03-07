@@ -21,22 +21,22 @@
             "OUT_OF_STOCK": true
         },
         {
-            "MOB_NAME": "IPhone 6S",
+            "MOB_NAME": "Samsung M9",
             "IMG": "./img/mobile2.png",
             "OUT_OF_STOCK": false
         },
         {
-            "MOB_NAME": "Moto G",
+            "MOB_NAME": "Real Me",
             "IMG": "./img/mobile2.png",
             "OUT_OF_STOCK": false
         },
         {
-            "MOB_NAME": "Moto G h2",
+            "MOB_NAME": "VIVO v9",
             "IMG": "./img/mobile2.png",
             "OUT_OF_STOCK": false
         },
         {
-            "MOB_NAME": "Moto G",
+            "MOB_NAME": "HONOR K9",
             "IMG": "./img/mobile2.png",
             "OUT_OF_STOCK": false
         }
